@@ -1,0 +1,35 @@
+import turtle
+
+
+def draw_square():
+    window = turtle.Screen()
+    window.bgcolor("blue")
+
+    turtle.shape("turtle")
+    turtle.color("yellow","green")
+    turtle.speed(10)    
+    brad = turtle.Turtle()
+
+    for 
+    brad.forward(100)
+    brad.right(90)
+    brad.forward(100)
+    brad.right(90)
+    brad.forward(100)
+    brad.right(90)
+    brad.forward(100)
+    brad.right(90)
+    
+    window.exitonclick()   
+    
+def draw_circle():
+
+    angie = turtle.Turtle()
+    angie.shape("arrow")
+    angie.color("white")
+    angie.circle(100)
+
+
+
+draw_circle()
+draw_square()
