@@ -1,35 +1,42 @@
 import turtle
 
-
-def draw_square():
-    window = turtle.Screen()
-    window.bgcolor("blue")
-
-    turtle.shape("turtle")
-    turtle.color("yellow","green")
-    turtle.speed(10)    
+window = turtle.Screen()
+window.bgcolor("blue")
+    
+def draw_square():  
     brad = turtle.Turtle()
+    turtle.shape("turtle")
+    turtle.color("yellow")
+    turtle.speed(10)
+    
+    brad.forward(100)
+    brad.right(90)
+    brad.forward(100)
+    brad.right(90)
+    brad.forward(100)
+    brad.right(90)
+    brad.forward(100)
+    brad.right(90)
 
-    for 
-    brad.forward(100)
-    brad.right(90)
-    brad.forward(100)
-    brad.right(90)
-    brad.forward(100)
-    brad.right(90)
-    brad.forward(100)
-    brad.right(90)
-    
-    window.exitonclick()   
-    
 def draw_circle():
-
     angie = turtle.Turtle()
     angie.shape("arrow")
     angie.color("white")
     angie.circle(100)
 
+def draw_triangle():
+    picky = turtle.Turtle()
+    picky.shape("triangle")
+    picky.color("red")
+    picky.rt(45)
+    picky.forward(100)
+    picky.rt(90)
+    picky.forward(100)
+    picky.lt(225)
+    picky.forward(150)
 
-
-draw_circle()
+    window.exitonclick()   
+    
 draw_square()
+draw_circle()
+draw_triangle()
